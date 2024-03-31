@@ -110,7 +110,7 @@ public class RPNParser {
      * @return true - If string is function ; false - in other way
      */
     protected static boolean isFunc(String check) {
-        return check.equals("pow2") || check.equals("sqrt") || check.equals("mod10");
+        return check.equals("pow2") || check.equals("sqrt") || check.equals("mod10")|| check.equals("sin")|| check.equals("cos");
     }
 
     /**

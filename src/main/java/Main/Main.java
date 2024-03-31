@@ -11,7 +11,7 @@ import Calculator.Calculator;
 public class Main {
     public static void main(String[] args) {
         Calculator c = new Calculator();
-        String input ="15*(7-58+(12*98+(9+5*6)))/5+(12.2-(9+8*(7+8/4)))";
+        String input ="15*(7-58+(cos(12)*98+(9+5*6)))/5+(12.2-(9+8*(7+8/4)))";
         System.out.println("\nРезультат: "+c.Calculation(input));
     }
 }

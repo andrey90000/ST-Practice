@@ -44,6 +44,12 @@ public class Calculator extends RPNParser {
                         case "sqrt":
                             stack.push(pow(stack.pop(), 0.5));
                             break;
+                        case "sin":
+                            stack.push(Math.sin(stack.pop()));
+                            break;
+                        case "cos":
+                            stack.push(Math.cos(stack.pop()));
+                            break;
                         case "u-":
                             stack.push(-stack.pop());
                             break;
